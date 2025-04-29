@@ -1,0 +1,10 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Setup Flutter
+    init: flutter doctor
+
+vscode:
+  extensions:
+    - Dart-Code.flutter # Optional: Flutter extension for VS Code
